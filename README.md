@@ -1,0 +1,2 @@
+# jamesjkim.me
+personal website
