@@ -1,0 +1,400 @@
+*{
+	margin: 0;
+}
+
+body{
+	margin: 0;
+}
+
+img{
+	width: 100;
+}
+
+/*********
+HEADER
+*********/
+
+.container{
+	background: url("img/sf.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.header-title{
+	padding-top: 150px;
+}
+
+.title{
+	font-family: courgette;
+	font-size: 50px;
+}
+
+#mantra{
+	font-family: comfortaa;
+	font-size: 25px;
+}
+
+/*********
+ABOUT
+*********/
+
+.about{
+	color: white;
+	width: 100%;
+	background: #008CBA;
+	padding: 25px 10px;
+}
+
+.about-text{
+	background-color: #333;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 396px;
+}
+
+.about-buttons{
+	margin: 0;
+	padding-top: 15px;
+}
+
+.about-buttons .button{
+	background: #e7e6e5;
+	color: #333;
+}
+
+.about-buttons .button:hover{
+	color: white;
+	background: rgba(255,255,255, 0.8);
+
+}
+
+.display h1{
+	color: white;
+	font-family: "raleway";
+	font-weight: 700;
+	margin: -10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+.display p{
+	font-family: "titillium web";
+	font-size: 1.1em;
+}
+
+.fillThis{
+	background-color: #f3f3f3;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 396px;
+}
+
+.fillThis div{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.selfie{
+	border: 1px solid #f1f1f1;
+	border-radius: 50%;
+	height: 333px;
+	width: 250px;
+}
+
+/*********
+ABOUT-PORTFOLIO-BG
+*********/
+
+.about-portfolio-bg{
+	background-image: url("img/city-bg.jpg");
+	background-repeat: none;
+	background-attachment: fixed;
+	height: 25vh;
+}
+
+.about-portfolio-bg h2{
+	color: #2c3e50;
+	font-family: courgette;
+	margin: 0;
+}
+
+.about-portfolio-bg p{
+	color: #2c3e50;
+	font-size: 1.25em;
+	padding-top: 25px;
+}
+
+.awesome-text{
+	background: rgba(200,200,200, 0.5);
+	height: inherit;
+	padding-top: 50px;
+	text-align: center;
+}
+
+/*********
+PORTFOLIO
+*********/
+
+.portfolio{
+	background: #008CBA;
+	color: white;
+	padding: 25px 0;
+}
+
+.portfolio .row{
+	background: #008CE3;
+	padding: 0 10px;
+}
+
+#js-app-row{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#website-row{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.portfolio h1{
+	color: white;
+	font-family: "raleway";
+	font-weight: 700;
+	padding-left: 15px;
+}
+
+.portfolio p{
+	background: #333;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	font-family: "titillium web";
+	font-size: 16.5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.portfolio-buttons{
+	margin-top: 15px;
+	margin-left: 85px;
+	position: absolute;
+}
+
+.portfolio a{
+	color: white;
+}
+
+.group-buttons{
+	background: #e7e6e5;
+	color: #333;
+}
+
+.sal{
+	margin-left: 20px;
+}
+
+.active{
+	color: #fff;
+	background: #333;
+}
+
+.group-buttons:hover{
+	background: rgba(255,255,255, 0.8);
+}
+
+/*********
+CONTACT
+*********/
+
+.contact{
+	background: url("img/sf1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom;
+	height: 317px;
+	width: 100%;
+}
+
+.contact h1, h2{
+	color: white;
+	font-weight: 700;
+}
+
+.contact ul{
+	list-style: none;
+}
+
+.slide-button{
+	margin-top: 25px;
+}
+
+.fa{
+	color: white;
+}
+
+.contact-text{
+	text-align: center;
+}
+
+.contact-text h1{
+	font-family: raleway;
+	font-size: 2.5em;
+}
+
+.social-media{
+	font-size: 2em;
+	margin-right: 150px;
+}
+
+.social-media li{
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.forms{
+	padding-left: 100px;
+	text-align: center;
+}
+
+.forms h1{
+	color: white;
+	margin-right: 55px;
+}
+
+.forms i{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.social-media li a:hover{
+	border-radius: 50px;
+	padding: 10px 0;
+}
+
+#facebook a:hover{
+	background-color: #3b5998;
+}
+
+#github a:hover{
+	background-color: #4183c4;
+}
+
+#googlePlus a:hover{
+	background-color: #dd4b39;
+}
+
+#linkedin a:hover{
+	background-color: #069;
+}
+
+.slide{
+	text-align: center;
+}
+
+.arrow{
+	margin-left: 10px;
+}
+
+.button.tiny{
+	font-size: 15px;
+}
+
+/*********
+FOOTER
+*********/
+
+footer{
+	background: #333;
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+
+#name{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+/*************
+MEDIA-QUERIES
+*************/
+
+@media(max-width: 1440px){
+	.container{
+		background-position: 75% 10%;
+	}
+}
+
+@media(max-width: 1023px){
+	.about-text, .fillThis{
+		height: 425px;
+	}
+	.about-portfolio-bg{
+		height: 200px;
+	}
+	.about-portfolio-bg p{
+		padding-top: 10px;
+	}
+}
+
+@media(max-width: 783px){
+	.awesome-text{
+		padding-top: 5px;
+	}
+	.about-text, .fillThis{
+		height: 450px;
+	}
+}
+
+@media(max-width: 705px){
+	.about-text, .fillThis{
+		height: 490px;
+	}
+}
+
+@media(max-width: 642px){
+	.about-text, .fillThis{
+		height: 360px;
+	}
+	.display{
+		padding-top: 25px;
+	}
+}
+
+@media(max-width: 500px){
+	.about-text, .fillThis{
+		height: 350px;
+	}
+}
+
+@media(max-width: 574px){
+	.about-text, .fillThis{
+		height: 400px;
+	}
+}
+
+@media(max-width: 478px){
+	.about-text, .fillThis{
+		height: 435px;
+	}
+}
+
+@media(max-width: 432px){
+	.about-text, .fillThis{
+		height: 475px;
+	}
+}
+
+@media(max-width: 551px){
+	.contact{
+		height: 400px;
+	}
+}
+
+@media(max-width: 551px){
+	.contact{
+		height: 500px;
+	}
+}
