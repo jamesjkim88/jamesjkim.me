@@ -249,12 +249,11 @@ CONTACT
 }
 
 .social-media li{
-	display: inline-block;
+	display: inline;
 	padding-left: 50px;
 }
 
 .forms{
-	padding-left: 100px;
 	text-align: center;
 }
 
@@ -389,12 +388,44 @@ MEDIA-QUERIES
 
 @media(max-width: 551px){
 	.contact{
-		height: 400px;
+		height: 500px;
 	}
 }
 
-@media(max-width: 551px){
+@media(max-width: 480px){
+	.container{
+		height: 55vh;
+	}
+	.header-title{
+		padding-top: 50px;
+	}
+	.header-title h1{
+		font-size: 2.5em;
+	}
+		.container{
+		height: 55vh;
+	}
+	.header-title{
+		padding-top: 50px;
+	}
+	.header-title h1{
+		font-size: 2em;
+	}
+	.about-text{
+		height: 525px;
+	}
+	.social-media{
+		padding-top: 25px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.social-media li{
+		padding: 0;
+	}
+	.forms h1{
+		margin: 0 auto;
+	}
 	.contact{
-		height: 500px;
+		height: 350px;
 	}
 }
